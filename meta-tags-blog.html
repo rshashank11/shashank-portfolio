@@ -25,7 +25,9 @@
 
         <div class="content-definition">
             <h3 class="content-heading">Definition</h3>
-            <p class="definition-text">The <code class="hero-code">&ltmeta&gt</code> tag is a source code that is not displayed on the page but is machine parsable and contains data defining the web page’s data to search engines.<br class="line-break">Always placed inside the <code class="hero-code">&lthead&gt</code> element.<br class="line-break">Typical attributes present in <code class="hero-code">&ltmeta&gt</code> element are character-set, name, content, and http-equiv.</p>
+            <p class="definition-text">The <code class="hero-code">&ltmeta&gt</code> tag is a source code that is not displayed on the page but is machine parsable and contains data defining the web page’s data to search engines.<br><br>
+            <code class="hero-code">&ltmeta&gt</code> tag is always placed inside the <code class="hero-code">&lthead&gt</code> element.<br><br>
+            Typical attributes present in <code class="hero-code">&ltmeta&gt</code> element are character-set, name, content, and http-equiv.</p>
         </div>
 
         <div class="blog-gap"></div>
@@ -34,20 +36,29 @@
             <h3 class="content-heading">Attributes</h3>
             <ol>
                 <li>
-                    <p>charset: The character encoding used by the HTML document.</p>
-                    Ex: <code class="hero-code">&ltmeta charset = “utf-8”&gt</code> : 
-                    <p>utf-8 is an universal character set that contains almost all characters from every human language.</p>
+                    <p><strong><em><a class="primary-link" href="meta-charset.html">charset</a></em></strong>: The character encoding used by the HTML document.</p>
+                    Ex: <code class="hero-code">&ltmeta charset = “utf-8”&gt</code> : utf-8 is an universal character set that contains almost all characters from every human language.
                 </li>
+
+                <br>
 
                 <li>
-                    <p>name: Name of the metadata;<br> 
-                    content: Value associated with name attribute.</p>
-                    Ex: <code class="hero-code">&ltmeta charset = “utf-8”&gt</code> : 
-                    <p>utf-8 is an universal character set that contains almost all characters from every human language.</p>
+                    <strong><em><a class="primary-link" href="meta-name-content.html">name</a></em></strong>: Name of the metadata;<br><br> 
+                    <strong><em><a class="primary-link" href="meta-name-content.html">content</a></em></strong>: Value associated with name attribute.</p>
+                   Ex: 
+                    <code class="hero-code">&ltmeta  name=“author” content=“Name of the author”&gt</code><br>
+                    <code class="hero-code">&ltmeta  name = “description” content = “Description of the content in the web page”&gt</code> 
                 </li>
-            </ol>
 
-            
+                <br>
+
+                <li>
+                    <p><strong><em><a class="primary-link" href="meta-name-content.html">http-equiv</a></em></strong>: HTTP header for information of the content attribute.<br> 
+                    </p>
+                   Ex: <code class="hero-code">&ltmeta  http-equiv = ”expires” content = “14 March 2022 11:44:00 IST”&gt</code><br>
+                    In the above example, when the date is reached, the page will be reloaded even when the page is in the cache.
+                </li>
+            </ol>  
         </div>
     
 </body>

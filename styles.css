@@ -199,9 +199,9 @@ hr {
 /**Content**/
 
 .content-definition {
-padding-left: 1rem;
-padding-right: 1rem;
-color: var(--primary)
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--primary);
 }
 
 .content-definition .hero-code {
@@ -220,11 +220,9 @@ color: var(--primary)
 
 .content-definition .definition-text {
     padding-left: 1rem;
+    line-height: 1;
 }
 
-.content-definition .definition-text .line-break {
-    margin-top: 1rem;
-}
 
 .content-attributes {
     padding-left: 1rem;
@@ -240,6 +238,7 @@ color: var(--primary)
 
 .content-attributes .hero-code {
     background-color: var(--tertiary);
+    color: var(--secondary);
     border-radius: 4px;
     padding: 0 3px; 
     font-size: 1rem;
@@ -248,4 +247,13 @@ color: var(--primary)
 .blog-gap {
         background-color: var(--secondary);
         padding: 3px;  
+}
+
+.content-attributes .primary-link {
+    padding: 0.2rem;
+    font: 500;
+    background-color: var(--tertiary);
+    color: var(--primary);
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary);
 }
