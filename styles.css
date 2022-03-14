@@ -118,6 +118,21 @@ hr {
     color: var(--primary);
 }
 
+.hero-meta-blog .hero-heading{
+    padding: 1rem;
+    padding-left: 1rem;
+    color: var(--primary);
+    text-align:left;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.hero-meta-blog .hero-code {
+        background-color: var(--tertiary);
+        border-radius: 4px;
+        padding: 0 3px;    
+}
+
 /**Section**/
 
 .section-grey {
@@ -179,4 +194,58 @@ hr {
 .footer .link-social {
     color: var(--secondary);
     font-weight: 500;
+}
+
+/**Content**/
+
+.content-definition {
+padding-left: 1rem;
+padding-right: 1rem;
+color: var(--primary)
+}
+
+.content-definition .hero-code {
+    background-color: var(--tertiary);
+    border-radius: 4px;
+    padding: 0 3px; 
+    font-size: 1rem;
+}
+
+.content-definition .content-heading {
+    background-color: var(--site-bg1);
+    padding: 0rem 1rem;
+    
+    color: var(--secondary);
+}
+
+.content-definition .definition-text {
+    padding-left: 1rem;
+}
+
+.content-definition .definition-text .line-break {
+    margin-top: 1rem;
+}
+
+.content-attributes {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--primary)
+}
+
+.content-attributes .content-heading {
+    background-color: var(--site-bg1);
+    padding: 0rem 1rem;
+    color: var(--secondary);
+}
+
+.content-attributes .hero-code {
+    background-color: var(--tertiary);
+    border-radius: 4px;
+    padding: 0 3px; 
+    font-size: 1rem;
+}
+
+.blog-gap {
+        background-color: var(--secondary);
+        padding: 3px;  
 }
