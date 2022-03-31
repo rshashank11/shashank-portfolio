@@ -75,6 +75,10 @@ hr {
     padding: 1rem 1rem;
 }
 
+.navigation a:hover {
+    color: var(--secondary);
+}
+
 .nav-brand {
     font-weight: 800;
     font-size: 1.5rem;
@@ -156,6 +160,8 @@ hr {
 
 }
 
+
+
 .parent {
     display: flex;
     justify-content: center;
@@ -196,6 +202,9 @@ hr {
     font-weight: 500;
 }
 
+.footer a:hover {
+    color: var(--primary);
+}
 /**Content**/
 
 .content-definition {
